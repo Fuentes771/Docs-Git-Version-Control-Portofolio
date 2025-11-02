@@ -104,3 +104,79 @@ a:hover {
   background: linear-gradient(90deg, var(--accent), var(--accent2));
   color: #042027;
 }
+
+/* ---------- Cards & Projects ---------- */
+.profile-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  padding: 1rem;
+  border-radius: 14px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.8rem;
+  margin-right: 0.35rem;
+}
+
+/* ---------- Project Detail ---------- */
+.section-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-detail {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.project-hero {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-hero img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
