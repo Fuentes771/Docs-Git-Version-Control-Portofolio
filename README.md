@@ -1,100 +1,69 @@
-Berikut versi **README.md** kamu yang sudah saya **lengkapi dengan deskripsi proyek dan langkah-langkah instalasi & penggunaan** — tetap konsisten dengan gaya penulisan aslimu 👇
-
----
-
-```markdown
 # 🌐 Portfolio M. Sulthon Alfarizky
 
-Selamat datang di portfolio pribadi saya!  
-Saya adalah **Full-Stack Developer** yang berspesialisasi dalam membangun produk web skala produksi dengan frontend interaktif, backend yang solid, dan pengalaman pengguna yang elegan.
+Selamat datang di portfolio pribadi saya! Saya adalah **Full-Stack Developer** yang membangun produk web skala produksi dengan frontend interaktif, backend yang solid, dan pengalaman pengguna elegan.
 
 ---
 
 ## 📝 Deskripsi Proyek
-Website portfolio ini dikembangkan sebagai representasi digital dari profil profesional saya.  
-Tujuannya adalah untuk menampilkan **proyek-proyek yang telah saya kerjakan**, **pengalaman pengembangan web**, dan **informasi kontak** dalam satu platform yang sederhana, cepat, dan mudah diakses.
+Website ini berfungsi sebagai representasi digital profil profesional saya. Tujuannya menampilkan proyek yang telah saya kerjakan, pengalaman pengembangan web, dan informasi kontak dalam satu platform yang ringan dan mudah diakses.
 
-Proyek ini dirancang dengan fokus pada:
-- **Desain minimalis dan responsif** untuk berbagai ukuran layar  
-- **Navigasi yang intuitif** agar pengguna dapat menjelajah dengan mudah  
-- **Struktur yang ringan dan tanpa framework berat**, hanya menggunakan HTML dan CSS murni  
+- **Desain minimalis dan responsif** untuk berbagai ukuran layar
+- **Navigasi intuitif** agar pengunjung dapat menjelajah dengan cepat
+- **Struktur tanpa framework berat**, hanya HTML dan CSS murni
 
 ---
 
 ## 🚀 Teknologi Utama
-- **Frontend:** HTML, CSS  
-- **Version Control:** Git & GitHub  
+- **Frontend**: HTML, CSS
+- **Version Control**: Git, GitHub
 
 ---
 
 ## 📁 Struktur Proyek
-```
-
+```plaintext
 ├── index.html             # Halaman utama portfolio
 ├── projects.html          # Daftar proyek yang pernah dikerjakan
 ├── project-detail.html    # Halaman detail proyek individual
 ├── contact.html           # Halaman kontak dengan form sederhana
 ├── css/
-│   └── style.css          # Styling utama (tanpa JavaScript)
-└── assets/
-└── images/            # Gambar proyek dan aset visual
-
-````
+│   └── style.css          # Styling utama
+├── assets/
+└── images/                # Gambar proyek dan aset visual
+```
 
 ---
 
-## ⚙️ Langkah Instalasi dan Penggunaan
-
-### 1. Clone Repositori
-Jalankan perintah berikut di terminal:
-```bash
-git clone https://github.com/fuentes771/portfolio-sulthon.git
-````
-
-### 2. Masuk ke Folder Proyek
-
-```bash
-cd portfolio-sulthon
-```
-
-### 3. Buka di Browser
-
-Cukup buka file `index.html` di browser favorit Anda:
-
-```bash
-start index.html
-```
-
-*(di macOS / Linux gunakan `open index.html` atau `xdg-open index.html`)*
-
-Tidak diperlukan server lokal atau dependensi tambahan.
+## ⚙️ Instalasi dan Penggunaan
+1. **Clone repositori**
+   ```bash
+   git clone https://github.com/fuentes771/portfolio-sulthon.git
+   ```
+2. **Masuk ke folder proyek**
+   ```bash
+   cd portfolio-sulthon
+   ```
+3. **Buka di browser**
+   ```bash
+   start index.html
+   ```
+   Gunakan `open index.html` di macOS atau `xdg-open index.html` di Linux.
 
 ---
 
-## 🧭 Penggunaan
-
-* Navigasikan melalui menu utama untuk melihat halaman *Home*, *Projects*, dan *Contact*.
-* Klik pada proyek untuk melihat detail lebih lanjut.
-* Gunakan halaman *Contact* untuk mengirim pesan langsung (form masih bersifat statis).
+## 🧭 Navigasi
+- **Home**: Gambaran singkat profil dan keahlian
+- **Projects**: Koleksi proyek pilihan lengkap dengan ringkasan
+- **Project Detail**: Informasi mendalam tiap proyek
+- **Contact**: Form sederhana untuk mengirim pesan langsung
 
 ---
 
 ## 📞 Kontak
-
-* **Email:** [sulthon.alfarizky@gmail.com](mailto:sulthon.alfarizky@gmail.com)
-* **LinkedIn:** [linkedin.com/in/sulthon](https://www.linkedin.com/in/sulthon)
-* **GitHub:** [github.com/sulthonalfarizky](https://github.com/sulthonalfarizky)
+- **Email**: [sulthon.alfarizky@gmail.com](mailto:sulthon.alfarizky@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sulthon](https://www.linkedin.com/in/sulthon)
+- **GitHub**: [github.com/sulthonalfarizky](https://github.com/sulthonalfarizky)
 
 ---
 
 ## 📄 Lisensi
-
-Portfolio ini dibuat untuk tujuan pribadi dan dapat digunakan sebagai referensi.
-Silakan gunakan struktur atau ide proyek ini dengan mencantumkan atribusi yang sesuai.
-
-```
-
----
-
-Apakah kamu ingin saya bantu **menambahkan bagian “Kontribusi & Pengembangan Lanjutan”** (misalnya petunjuk bagi orang lain yang ingin fork atau modifikasi desain)? Itu bisa membuat README-mu lebih profesional.
-```
+Portfolio ini dibuat untuk tujuan pribadi dan dapat dijadikan referensi dengan mencantumkan atribusi yang sesuai.
