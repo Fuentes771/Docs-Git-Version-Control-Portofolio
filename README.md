@@ -65,5 +65,22 @@ Website ini berfungsi sebagai representasi digital profil profesional saya. Tuju
 
 ---
 
+## 📸 Dokumentasi Git
+- **git log --graph**:
+
+  ![Git log --graph 1](assets/dokumentasi/git_log--graph_1.png)
+
+  ![Git log --graph 2](assets/dokumentasi/git_log--graph_2.png)
+
+  ![Git log --graph 3](assets/dokumentasi/git_log--graph_3.png)
+
+  ![Git log --graph 4](assets/dokumentasi/git_log--graph_4.png)
+
+- **git log --oneline**:
+
+  ![Git log --oneline](assets/dokumentasi/git_log--oneline.png)
+
+---
+
 ## 📄 Lisensi
 Portfolio ini dibuat untuk tujuan pribadi dan dapat dijadikan referensi dengan mencantumkan atribusi yang sesuai.
